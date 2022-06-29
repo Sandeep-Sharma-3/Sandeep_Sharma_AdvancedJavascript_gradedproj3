@@ -213,7 +213,7 @@ function addEventListeners() {
 
 function startedTyping() {
     addEventListeners();
-    document.getElementById('instruction').innerText = "The journey of a thousand miles begins with one step. The journey of a thousand miles begins with one step.";
+    document.getElementById('instruction').innerText = "Journey of thousand miles begins with a single step means that big achievements are made through small concrete resolves. Dreams and life goals are achieved by making a path plan and taking the first step towards it.";
     
     let inputMaxLength = document.getElementById('instruction').innerText.length;
     document.getElementById('typeText').maxLength = inputMaxLength;
